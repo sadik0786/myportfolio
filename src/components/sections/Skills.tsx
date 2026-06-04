@@ -27,12 +27,12 @@ export function Skills() {
   };
 
   return (
-    <section id="skills" className="py-24 bg-card/30 relative">
+    <section id="skills" className="py-12 md:py-24 bg-card/30 relative">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent pointer-events-none" />
-      
+
       <div className="container mx-auto px-4 md:px-6 relative z-10">
-        <SectionHeading 
-          title="Technical Arsenal" 
+        <SectionHeading
+          title="Technical Arsenal"
           subtitle="Tools and technologies I use to build robust digital solutions"
         />
 
@@ -50,7 +50,7 @@ export function Skills() {
                 <span className="w-2 h-8 rounded-full bg-primary/20 block" />
                 {category}
               </h3>
-              
+
               <div className="flex flex-wrap gap-2">
                 {portfolioData.skills[category].map((skill) => (
                   <motion.span

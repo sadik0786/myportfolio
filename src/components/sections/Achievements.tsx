@@ -54,7 +54,7 @@ function Counter({ achievement, delay }: { achievement: any, delay: number }) {
       transition={{ duration: 0.5, delay }}
       className="flex flex-col items-center justify-center text-center p-4"
     >
-      <div className="text-4xl md:text-5xl lg:text-6xl font-black mb-2 text-transparent bg-clip-text bg-gradient-to-br from-primary to-purple-400">
+      <div className="text-4xl md:text-5xl lg:text-6xl font-black mb-2 text-transparent bg-clip-text bg-gradient-to-br from-primary to-blue-400">
         {count}{achievement.suffix}
       </div>
       <div className="text-sm md:text-base font-medium text-muted-foreground uppercase tracking-wider">

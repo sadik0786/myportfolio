@@ -16,8 +16,8 @@ export const portfolioData = {
     Frontend: ["React.js", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3"],
     UI: ["Material UI", "Bootstrap", "Tailwind CSS", "Framer Motion"],
     Mobile: ["Flutter"],
-    Backend: ["Node.js", "PHP"],
-    Database: ["MySQL", "MongoDB"],
+    Backend: ["Node.js", "PHP", "Rest Api"],
+    Database: ["MySQL", "MongoDB", "Supabase", "Firebase", "PostgreSQL"],
     Tools: ["Git", "GitHub", "VS Code"],
   },
   experience: [
@@ -58,7 +58,7 @@ export const portfolioData = {
       tech: ["React.js", "Next.js", "TypeScript", "Tailwind CSS"],
       links: [
         { label: "Partner", url: "https://partner.5nance.com" },
-        { label: "Products", url: "https://products.5nance.com" }, // Added generic domain since products.com was listed, assumed 5nance products
+        { label: "Products", url: "https://products.5nance.com/login" }, // Added generic domain since products.com was listed, assumed 5nance products
       ],
       image: "/projects/5nance.jpg" // Placeholder for structure, we won't show it if missing
     },
@@ -124,8 +124,8 @@ export const portfolioData = {
   contact: {
     location: "Mumbai, India",
     email: "alisadik99@gmail.com",
-    github: "https://github.com/sadikali",
-    linkedin: "https://linkedin.com/in/sadikali",
+    github: "https://github.com/sadik0786",
+    linkedin: "https://www.linkedin.com/in/sadik-ali-175239207/",
   },
   apps: [
     {

@@ -8,7 +8,7 @@ import { Mail, MapPin, Send } from "lucide-react";
 
 export function Contact() {
   return (
-    <section id="contact" className="py-24 bg-card/30 relative">
+    <section id="contact" className="py-12 md:py-24 bg-card/30 relative overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
         <SectionHeading 
           title="Get In Touch" 

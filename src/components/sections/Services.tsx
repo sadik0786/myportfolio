@@ -6,7 +6,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export function Services() {
   return (
-    <section id="services" className="py-24 relative">
+    <section id="services" className="py-12 md:py-24 relative">
       <div className="container mx-auto px-4 md:px-6">
         <SectionHeading 
           title="My Services" 
