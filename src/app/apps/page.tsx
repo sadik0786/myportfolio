@@ -58,12 +58,18 @@ export default function AppsPage() {
                 </div>
 
 
-                <Link href={app.file} className="w-full" download>
-                  <Button className="w-full group">
-                    <Download className="mr-2 w-5 h-5 group-hover:-translate-y-1 transition-transform" />
-                    Download APK
+                {app.active ? (
+                  <Link href={app.file} className="w-full cursor-pointer" download>
+                    <Button className="w-full group cursor-pointer">
+                      <Download className="mr-2 w-5 h-5 group-hover:-translate-y-1 transition-transform" />
+                      Download APK
+                    </Button>
+                  </Link>
+                ) : (
+                  <Button className="w-full opacity-50 cursor-not-allowed" disabled variant="outline">
+                    Coming Soon
                   </Button>
-                </Link>
+                )}
               </div>
             </motion.div>
           ))}

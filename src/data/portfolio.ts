@@ -136,6 +136,7 @@ export const portfolioData = {
       version: "1.0.0",
       size: "29.1 MB",
       platform: "Android",
+      active: true,
     },
     {
       id: 2,
@@ -145,6 +146,7 @@ export const portfolioData = {
       version: "1.0.0",
       size: "20 MB",
       platform: "Android",
+      active: true,
     },
     {
       id: 3,
@@ -154,6 +156,7 @@ export const portfolioData = {
       version: "1.0.0",
       size: "19.8 MB",
       platform: "Android",
+      active: false,
     },
     {
       id: 4,
@@ -163,6 +166,7 @@ export const portfolioData = {
       version: "1.0.0",
       size: "19.8 MB",
       platform: "Android",
+      active: true,
     },
     {
       id: 5,
@@ -172,6 +176,7 @@ export const portfolioData = {
       version: "1.0.0",
       size: "19.8 MB",
       platform: "Android",
+      active: true,
     },
     {
       id: 6,
@@ -181,6 +186,7 @@ export const portfolioData = {
       version: "1.0.0",
       size: "19.8 MB",
       platform: "Android",
+      active: false,
     }
   ]
 };
