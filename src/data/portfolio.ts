@@ -144,7 +144,7 @@ export const portfolioData = {
       icon: "/image/familywallet.png",
       file: "/downloads/familywallet.apk",
       version: "1.0.0",
-      size: "20 MB",
+      size: "20.4 MB",
       platform: "Android",
       active: true,
     },
