@@ -12,7 +12,7 @@ const navLinks = [
   { name: "Skills", href: "/#skills" },
   { name: "Experience", href: "/experience" },
   { name: "Projects", href: "/projects" },
-  { name: "Apps", href: "/apps" },
+  { name: "Mobile Apps", href: "/apps" },
   { name: "Contact", href: "/#contact" },
 ];
 

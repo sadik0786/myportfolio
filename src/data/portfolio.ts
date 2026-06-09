@@ -166,7 +166,7 @@ export const portfolioData = {
       version: "1.0.0",
       size: "19.8 MB",
       platform: "Android",
-      active: true,
+      active: false,
     },
     {
       id: 5,
@@ -176,7 +176,7 @@ export const portfolioData = {
       version: "1.0.0",
       size: "19.8 MB",
       platform: "Android",
-      active: true,
+      active: false,
     },
     {
       id: 6,
