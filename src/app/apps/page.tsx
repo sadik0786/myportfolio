@@ -24,8 +24,13 @@ export default function AppsPage() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="glass-card rounded-3xl overflow-hidden border border-white/5 hover:border-primary/30 transition-all duration-300 flex flex-col"
+              className="glass-card rounded-3xl overflow-hidden border border-white/5 hover:border-primary/30 transition-all duration-300 flex flex-col relative"
             >
+              {app.isUpdate && (
+                <div className="absolute top-4 right-4 bg-red-500 text-white text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shadow-[0_0_15px_rgba(239,68,68,0.6)] animate-pulse z-10">
+                  Update
+                </div>
+              )}
               <div className="p-8 flex-grow flex flex-col items-center text-center">
                 <div className="w-24 h-24 rounded-3xl bg-primary/10 flex items-center justify-center mb-6 text-5xl border border-primary/20 shadow-lg shadow-primary/5 overflow-hidden relative">
                   {app.icon?.startsWith("/") || app.icon?.startsWith("http") ? (

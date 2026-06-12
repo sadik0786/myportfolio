@@ -134,9 +134,10 @@ export const portfolioData = {
       icon: "/image/salatuk_icon.png",
       file: "/downloads/salatuk.apk",
       version: "1.0.0",
-      size: "30.2 MB",
+      size: "36.6 MB",
       platform: "Android",
       active: true,
+      isUpdate: true,
     },
     {
       id: 2,
