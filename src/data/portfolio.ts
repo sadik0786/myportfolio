@@ -148,6 +148,7 @@ export const portfolioData = {
       size: "20.4 MB",
       platform: "Android",
       active: true,
+      isUpdate: true,
     },
     {
       id: 3,
@@ -158,6 +159,7 @@ export const portfolioData = {
       size: "39.4 MB",
       platform: "Android",
       active: true,
+      isUpdate: false,
     },
     {
       id: 4,
@@ -168,6 +170,7 @@ export const portfolioData = {
       size: "19.8 MB",
       platform: "Android",
       active: false,
+      isUpdate: false,
     },
     {
       id: 5,
@@ -178,6 +181,7 @@ export const portfolioData = {
       size: "19.8 MB",
       platform: "Android",
       active: false,
+      isUpdate: false,
     },
     {
       id: 6,
@@ -188,6 +192,18 @@ export const portfolioData = {
       size: "19.8 MB",
       platform: "Android",
       active: false,
+      isUpdate: false,
+    },
+    {
+      id: 7,
+      title: "ApnaGo App",
+      icon: "/image/apnaGo.png",
+      file: "/downloads/apnagogo.apk",
+      version: "1.0.0",
+      size: "19.8 MB",
+      platform: "Android",
+      active: false,
+      isUpdate: false,
     }
   ]
 };
