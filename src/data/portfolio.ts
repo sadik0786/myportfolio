@@ -4,19 +4,19 @@ export const portfolioData = {
   hero: {
     name: "Sadik Ali",
     role: "Senior Frontend Developer",
-    experience: "4.5+ Years Experience",
+    experience: "6.10+ Years Experience",
     description: "Building world-class, premium digital experiences with modern web technologies.",
-    coreTech: ["React.js", "Next.js", "TypeScript", "Flutter"],
+    coreTech: ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "TypeScript", "Flutter"],
   },
   about: {
-    summary: "Passionate Senior Frontend Developer with over 4.5 years of experience in building highly scalable, responsive, and performant web applications. I specialize in the React ecosystem (Next.js, React.js) and TypeScript, focusing on crafting pixel-perfect, premium user interfaces that provide exceptional user experiences.",
+    summary: "Passionate Senior Frontend Developer with over 6.10 years of experience in building highly scalable, responsive, and performant web applications. I specialize in the React ecosystem (Next.js, React.js) and TypeScript, focusing on crafting pixel-perfect, premium user interfaces that provide exceptional user experiences.",
     objective: "My goal is to leverage my expertise in modern frontend technologies to build innovative, world-class products. I thrive in challenging environments where I can solve complex problems, contribute to architectural decisions, and create visually stunning, accessible applications.",
   },
   skills: {
     Frontend: ["React.js", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3"],
     UI: ["Material UI", "Bootstrap", "Tailwind CSS", "Framer Motion"],
     Mobile: ["Flutter"],
-    Backend: ["Node.js", "PHP", "Rest Api"],
+    Backend: ["Node.js", "Rest Api"],
     Database: ["MySQL", "MongoDB", "Supabase", "Firebase", "PostgreSQL"],
     Tools: ["Git", "GitHub", "VS Code"],
   },
@@ -55,7 +55,7 @@ export const portfolioData = {
       id: 1,
       title: "5nance",
       description: "Financial services platform offering investment options and portfolio management.",
-      tech: ["React.js", "Next.js", "TypeScript", "Tailwind CSS"],
+      tech: ["Html", "CSS", "JavaScript", "React.js", "Next.js", "TypeScript", "Bootstrap", "Tailwind CSS"],
       links: [
         { label: "Partner", url: "https://partner.5nance.com" },
         { label: "Products", url: "https://products.5nance.com/login" }, // Added generic domain since products.com was listed, assumed 5nance products
@@ -71,14 +71,14 @@ export const portfolioData = {
     },
     {
       id: 3,
-      title: "HRMS Portal",
+      title: "TaskMate",
       description: "A Human Resource Management System featuring role-based login and comprehensive leave management.",
-      tech: ["Flutter", "MySQL", "Node.js", "REST APIs"],
+      tech: ["Flutter", "MSSQL", "Node.js", "REST APIs"],
       links: [],
     },
   ],
   achievements: [
-    { label: "Years Experience", value: 4, suffix: ".5+" },
+    { label: "Years Experience", value: 6, suffix: ".10+" },
     { label: "Projects Completed", value: 20, suffix: "+" },
     { label: "Satisfied Clients", value: 15, suffix: "+" },
     { label: "Code Commits", value: 5000, suffix: "+" },
