@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
-import { Download, Smartphone } from "lucide-react";
+import { Download, Smartphone, Calendar } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -26,11 +26,19 @@ export default function AppsPage() {
               transition={{ duration: 0.5, delay: idx * 0.1 }}
               className="glass-card rounded-3xl overflow-hidden border border-white/5 hover:border-primary/30 transition-all duration-300 flex flex-col relative"
             >
-              {app.isUpdate && (
-                <div className="absolute top-4 right-4 bg-red-500 text-white text-[11px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shadow-[0_0_15px_rgba(239,68,68,0.6)] animate-pulse z-10">
-                  Update
-                </div>
-              )}
+              <div className="absolute top-4 right-4 flex flex-col items-end gap-2 z-10">
+                {app.date && (
+                  <div className="bg-black/40 text-white text-[10px] font-medium px-2.5 py-1 rounded-full flex items-center gap-1 backdrop-blur-md border border-white/10">
+                    <Calendar size={10} />
+                    {app.date}
+                  </div>
+                )}
+                {app.isUpdate && (
+                  <div className="bg-red-500 text-white text-[9px] font-bold px-2.5 py-1 rounded-full uppercase tracking-wider shadow-[0_0_15px_rgba(239,68,68,0.6)] animate-pulse">
+                    Update
+                  </div>
+                )}
+              </div>
               <div className="p-8 flex-grow flex flex-col items-center text-center">
                 <div className="w-24 h-24 rounded-3xl bg-primary/10 flex items-center justify-center mb-6 text-5xl border border-primary/20 shadow-lg shadow-primary/5 overflow-hidden relative">
                   {app.icon?.startsWith("/") || app.icon?.startsWith("http") ? (
@@ -49,7 +57,7 @@ export default function AppsPage() {
                   {app.title}
                 </h3>
 
-                <div className="flex items-center gap-2 mb-4">
+                <div className="flex items-center justify-center flex-wrap gap-2 mb-4">
                   <span className="px-2 py-1 rounded-md bg-white/5 text-xs font-medium text-muted-foreground border border-white/5">
                     v{app.version}
                   </span>
@@ -64,14 +72,14 @@ export default function AppsPage() {
 
 
                 {app.active ? (
-                  <Link href={app.file} className="w-full cursor-pointer" download>
-                    <Button className="w-full group cursor-pointer">
+                  <Link href={app.file} className="cursor-pointer" download>
+                    <Button className="group cursor-pointer px-8 rounded-full">
                       <Download className="mr-2 w-5 h-5 group-hover:-translate-y-1 transition-transform" />
                       Download APK
                     </Button>
                   </Link>
                 ) : (
-                  <Button className="w-full opacity-50 cursor-not-allowed" disabled variant="outline">
+                  <Button className="opacity-50 cursor-not-allowed px-8 rounded-full" disabled variant="outline">
                     Coming Soon
                   </Button>
                 )}

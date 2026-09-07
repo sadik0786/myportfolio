@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { portfolioData } from "@/data/portfolio";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Button } from "@/components/ui/Button";
-import { Mail, MapPin, Send } from "lucide-react";
+import { Mail, MapPin, Send, Phone } from "lucide-react";
 
 export function Contact() {
   return (
@@ -53,6 +53,20 @@ export function Contact() {
                   </a>
                 </div>
               </div>
+
+              {portfolioData.contact.phone && (
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-full glass flex items-center justify-center text-primary shrink-0">
+                    <Phone className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <h4 className="font-medium text-foreground mb-1">Phone</h4>
+                    <a href={`tel:${portfolioData.contact.phone}`} className="text-muted-foreground hover:text-primary transition-colors">
+                      {portfolioData.contact.phone}
+                    </a>
+                  </div>
+                </div>
+              )}
             </div>
           </motion.div>
 
