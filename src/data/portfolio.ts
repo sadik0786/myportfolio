@@ -54,31 +54,96 @@ export const portfolioData = {
     {
       id: 1,
       title: "5nance.com",
+      company: "Innovage Fintech Private Limited",
       description: "Financial services platform offering investment options and portfolio management.",
-      tech: ["Html", "CSS", "JavaScript", "React.js", "Next.js", "TypeScript", "Bootstrap", "Tailwind CSS"],
+      tech: ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "TypeScript", "Bootstrap"],
       links: [
         { label: "5nance", url: "https://www.5nance.com" },
-        { label: "Partner", url: "https://partner.5nance.com" },
+        { label: "Partner portal", url: "https://partner.5nance.com" },
         { label: "Products", url: "https://products.5nance.com/login" },
       ],
       image: "/projects/5nance.jpg"
     },
     {
       id: 2,
-      title: "5nance AI - Smart Wealth App",
+      title: "5nance AI App",
+      company: "Innovage Fintech Private Limited",
       description: "An AI-powered wealth and investing platform designed to provide a smarter, faster, and more transparent investing experience for modern investors.",
       tech: ["Flutter", "Dart", "Firebase"],
       links: [
-        { label: "5nance AI", url: "https://play.google.com/store/search?q=5nance+ai&c=apps&hl=en_IN" },
+        { label: "5nance AI - Smart Wealth App", url: "https://play.google.com/store/search?q=5nance+ai&c=apps&hl=en_IN" },
+        { label: "AR by 5nance", url: "https://play.google.com/store/apps/details?id=com.finance.allrounder&hl=en_IN" },
       ],
     },
     {
       id: 3,
       title: "TaskMate",
+      company: "Personal Project",
       description: "A Human Resource Management System featuring role-based login and comprehensive leave management.",
       tech: ["Flutter", "MSSQL", "Node.js", "REST APIs"],
       links: [
-        { label: "TaskMate", url: "http://taskmate.5nance.com/" },
+        { label: "TaskMate Web", url: "http://taskmate.5nance.com/" },
+        { label: "TaskMate App", url: "https://myportfolio-sooty-five-12.vercel.app/apps" },
+      ],
+    },
+    {
+      id: 4,
+      title: "Salatuk App",
+      company: "Personal Project",
+      description: "A Prayer Time Tracker featuring prayer time tracking and qibla direction.",
+      tech: ["Flutter"],
+      links: [
+        { label: "Salatuk", url: "https://myportfolio-sooty-five-12.vercel.app/apps" },
+      ],
+    },
+    {
+      id: 5,
+      title: "Bollyglow.com",
+      company: "Noesis.tech",
+      description: "Contributed to frontend development for a beauty and personal care e-commerce platform.",
+      tech: ["HTML", "CSS", "JavaScript", "Wordpress"],
+      links: [
+        { label: "Bollyglow", url: "https://www.bollyglow.com" },
+      ],
+    },
+    {
+      id: 6,
+      title: "Corejewellery.com",
+      company: "Noesis.tech",
+      description: "Contributed to frontend development for a jewellery e-commerce platform with product catalog and checkout flow.",
+      tech: ["HTML", "CSS", "JavaScript", "Wordpress"],
+      links: [
+        { label: "Corejewellery", url: "https://corejewellery.com" },
+      ],
+    },
+    {
+      id: 7,
+      title: "Nykdbynykaa.com",
+      company: "Noesis.tech",
+      description: "Contributed to frontend development for a beauty brand's e-commerce website.",
+      tech: ["HTML", "CSS", "JavaScript", "Wordpress"],
+      links: [
+        { label: "Nykd by Nykaa", url: "https://nykdbynykaa.com" },
+      ],
+    },
+    {
+      id: 8,
+      title: "Zoomedia.in",
+      company: "Noesis.tech",
+      description: "Contributed to frontend development for a client media platform.",
+      tech: ["HTML", "CSS", "JavaScript", "Wordpress"],
+      links: [
+        { label: "Zoomedia", url: "https://zoomedia.in" },
+      ],
+    },
+    {
+      id: 9,
+      title: "CIFE",
+      company: "Idnus Systems & Services Pvt. Ltd",
+      description: "Contributed to frontend development for a client media platform.",
+      tech: ["HTML", "CSS", "JavaScript"],
+      links: [
+        { label: "Zoomedia", url: "https://www.cife.edu.in/" },
       ],
     },
   ],
