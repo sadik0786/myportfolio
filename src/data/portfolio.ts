@@ -143,7 +143,7 @@ export const portfolioData = {
       description: "Contributed to frontend development for a client media platform.",
       tech: ["HTML", "CSS", "JavaScript"],
       links: [
-        { label: "Zoomedia", url: "https://www.cife.edu.in/" },
+        { label: "CIFE", url: "https://www.cife.edu.in/" },
       ],
     },
   ],
