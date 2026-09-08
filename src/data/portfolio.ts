@@ -10,14 +10,14 @@ export const portfolioData = {
   },
   about: {
     summary: "I am a Senior Frontend Developer with over 6.10 years of experience in building fast, responsive, and user-friendly web applications. I specialize in React.js, Next.js, and TypeScript, focusing on creating beautiful and clean user interfaces.",
-    objective: "My goal is to use my skills to build great products. I enjoy working on challenging projects where I can solve problems, write good code, and create applications that are easy for everyone to use.",
+    objective: "My goal is to build scalable, high-performance web applications and deliver user-centric solutions. I have hands-on experience working on fintech platforms — including 5nance — integrating APIs and optimizing performance for a large user base.",
   },
   skills: {
     Frontend: ["React.js", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3"],
     UI: ["Material UI", "Bootstrap", "Tailwind CSS", "Framer Motion"],
     Mobile: ["Flutter"],
-    Backend: ["Node.js", "Rest Api"],
-    Database: ["MSSQL", "MySQL", "MongoDB", "Supabase", "Firebase", "PostgreSQL"],
+    Backend: ["Node.js"],
+    Database: ["MSSQL", "MongoDB", "MySQL", "Firebase", "Supabase", "PostgreSQL"],
     Tools: ["Git", "GitHub", "VS Code"],
   },
   experience: [
@@ -84,9 +84,7 @@ export const portfolioData = {
   ],
   achievements: [
     { label: "Years Experience", value: 6, suffix: ".10+" },
-    { label: "Projects Completed", value: 20, suffix: "+" },
-    { label: "Satisfied Clients", value: 15, suffix: "+" },
-    { label: "Code Commits", value: 5000, suffix: "+" },
+    { label: "Projects Completed", value: 8, suffix: "+" },
   ],
   services: [
     {
@@ -105,7 +103,7 @@ export const portfolioData = {
       id: 3,
       title: "React Development",
       description: "Building interactive and dynamic web applications with React.",
-      icon: Database, // Generic icon
+      icon: Code2, // Generic icon
     },
     {
       id: 4,
