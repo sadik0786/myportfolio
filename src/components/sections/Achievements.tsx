@@ -8,14 +8,14 @@ export function Achievements() {
   return (
     <section className="py-12 md:py-20 relative overflow-hidden border-y border-white/5">
       <div className="absolute inset-0 bg-primary/5" />
-      
+
       <div className="container mx-auto px-4 md:px-6 relative z-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
           {portfolioData.achievements.map((achievement, idx) => (
-            <Counter 
-              key={idx} 
-              achievement={achievement} 
-              delay={idx * 0.1} 
+            <Counter
+              key={idx}
+              achievement={achievement}
+              delay={idx * 0.1}
             />
           ))}
         </div>
@@ -35,7 +35,7 @@ function Counter({ achievement, delay }: { achievement: any, delay: number }) {
       const end = achievement.value;
       const duration = 2000; // 2 seconds
       const incrementTime = Math.floor(duration / end) || 10;
-      
+
       const timer = setInterval(() => {
         start += 1;
         setCount(start);
