@@ -80,7 +80,7 @@ export function Hero() {
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
-            <Link href="/downloads/sadik_2026.pdf" target="_blank" className="w-full sm:w-auto">
+            <Link href="/downloads/Sadik_Ali_CV_New.pdf" target="_blank" className="w-full sm:w-auto">
               <Button variant="outline" size="lg" className="w-full sm:w-auto group border-white/10 hover:border-white/20 glass">
                 <Download className="mr-2 w-5 h-5" />
                 Download Resume
